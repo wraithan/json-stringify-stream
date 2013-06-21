@@ -1,0 +1,30 @@
+{
+  "name": "json-stringify-stream",
+  "version": "0.0.1",
+  "description": "streaming jsong stringifier",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wraithan/json-stringify-stream.git"
+  },
+  "keywords": [
+    "json",
+    "stringify",
+    "readable",
+    "stream"
+  ],
+  "author": "Wraithan <xwraithanx@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wraithan/json-stringify-stream/issues"
+  },
+  "dependencies": {
+    "through": "~2.3.4"
+  },
+  "devDependencies": {
+    "tape": "~1.0.4"
+  }
+}
